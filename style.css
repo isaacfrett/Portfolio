@@ -546,6 +546,56 @@ select {
 
 
 
+
+
+/* START ABOUT PAGE */
+
+.headshot-pic {
+    position: relative;
+    overflow: hidden;
+    width: 20vw;
+    height: 20vw;
+    min-width: 200px;
+    min-height: 200px;
+    top: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vw;
+}
+
+.headshot {
+    height: 100%;
+    border-radius: 50%;
+    
+}
+
+.about-title {
+    position: relative;
+    text-align: center;
+    font-size: calc(2vw + 20px);
+    
+}
+
+.about-paragraph {
+    position: relative;
+    text-align: center;
+    margin-left: calc(25vw - 40px);
+    margin-right: calc(25vw - 40px);
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* START FOOTER */
 
 
