@@ -271,11 +271,6 @@ select {
     margin-top: 30px;
 }
 
-.skills-bottom{
-    position: relative;
-
-}
-
 
 .html-icon {
     display: inline-block;
@@ -566,25 +561,37 @@ select {
 .headshot {
     height: 100%;
     border-radius: 50%;
-    
 }
 
 .about-title {
     position: relative;
     text-align: center;
     font-size: calc(2vw + 20px);
-    
 }
 
 .about-paragraph {
     position: relative;
     text-align: center;
-    margin-left: calc(25vw - 40px);
-    margin-right: calc(25vw - 40px);
+    margin-left: calc(20vw - 40px);
+    margin-right: calc(20vw - 40px);
     margin-top: 2vw;
     margin-bottom: 5vw;
-    line-height: 40px;
+    line-height: calc(2vw + 15px);
+    font-size: calc(1.2vw + 10px);
 }
+
+
+
+/* START CONTACT PAGE  */
+
+
+.contact-title {
+    position: relative;
+    text-align: center;
+    font-size: calc(2vw + 20px);
+}
+
+
 
 
 
