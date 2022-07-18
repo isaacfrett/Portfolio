@@ -32,21 +32,20 @@ nav{
 
 }
 
-nav a {
-    font-size: 1em;
-    color: white;
-    text-align: right;
-    text-decoration: none;
-    display: inline-block;
-}
+
 
 .nav-menu{
     float: right;
     margin: inherit;
     padding: inherit;
     text-align: center;
+    line-height: 100%;
+    vertical-align: middle;
+    border: none;
+    position: relative;
+    padding-left: calc(2vw - 10px);
+    padding-right: calc(2vw - 10px);
     
-
 }
 
 .dropdown{
@@ -56,15 +55,14 @@ nav a {
     position: relative;
 }
 
-.dropdown .dropbtn{
+.dropbtn{
     font-size: 1em;
     color: white;
-    background-color: inherit;
+    background-color: black;
     font-family: inherit; 
-    display: inline-block;
-    vertical-align: middle;
     cursor: pointer;
-    
+    line-height: 100%;
+    border: none;
 }
 
 .dropdown-content {
@@ -101,7 +99,7 @@ nav a {
     float: none;
     text-align: left;
     position: fixed;
-    top: 55px;
+    top: 52px;
     right: 190px;
     align-content: center;
    
@@ -124,13 +122,13 @@ select {
 }
 
 .nav-links{
-    flex: 1;
+    flex: auto;
     text-align:right;
 }
 
 .nav-links ul li { 
     list-style: none;
-    display: inline;
+    display: inline-block;
     margin: 0 10px;
 }
 
@@ -144,6 +142,7 @@ select {
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
+    line-height: 100%;
 }
 
 .nav-links ul li:hover{
@@ -593,8 +592,345 @@ select {
 
 
 
+/* START RESUME PAGE */
+
+.resume-tip {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.resume-button{
+    background-color: #000;
+    position: relative;
+    margin-left: calc(50% - 175px);
+    margin-right: auto;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    height: 70px;
+    display: block;
+    text-decoration: none;
+}
+
+.resume-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);;
+}
+
+.download-resume-text {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: auto;
+    margin: auto;
+    line-height: 70px;
+}
+
+.pdf-content {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 
+
+
+
+/* START SCRIPTS PAGE */
+
+.content-scripts {
+    position: relative; 
+}      
+
+
+.main-title-scripts {
+    font-size: calc(36px + 1.4vw);
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.vl3 {
+    border-left: 3px solid rgb(121, 121, 121);
+    height: 30vw;
+    position: absolute;
+    left: -14%;
+    top: 15%;
+    
+}
+
+#lifting-image {
+    position: absolute;
+    width: 40vw;
+    margin: auto;
+    height: auto;
+    top: 10%;
+    left: 5vw;
+    right: 55vw;
+    display: inline-block;
+    
+}
+
+
+.p1-title {
+    position: absolute;
+    font-size: calc(11px + 1.2vw);
+    width: 40vw;
+    left: 55vw;
+    text-align: center;
+    top: 5vw;
+    display: inline-block;
+}
+
+.scripts-p1 {
+    width: 40vw;
+    text-align: center;
+    font-size: calc(8px + 1.3vw);
+    position: relative;
+    left: 55vw;
+    top: 5vw; 
+    margin-bottom: 10vw;
+    display: inline-block;
+}
+
+.p2-title {
+    position: relative;
+    font-size: calc(11px + 1.2vw);
+    width: 40vw;
+    left: 5vw;
+    right: 55vw;
+    text-align: center;
+    top: 5vw;
+}
+
+.scripts-p2 {
+    width: 40vw;
+    text-align: center;
+    font-size: calc(8px + 1.3vw);
+    position: relative;
+    left: 5vw;
+    top: 7vw; 
+    right: 55vw;
+    margin-bottom: 10vw;
+}
+
+.vl4 {
+    border-left: 3px solid rgb(121, 121, 121);
+    height: 60%;
+    position: absolute;
+    right: -11.5%;
+    top: 15%;
+    
+}
+
+.Job-Scraper-pic {
+    position: absolute;
+    width: 40vw;
+    margin: auto;
+    height: auto;
+    top: 45%;
+    left: 55vw;
+    right: 5vw;
+    display: inline-block;
+}
+
+.p3-title {
+    position: relative;
+    font-size: calc(11px + 1.2vw);
+    width: 40vw;
+    left: 55vw;
+    text-align: center;
+    top: 5vw;
+}
+
+.vl5 {
+    border-left: 3px solid rgb(121, 121, 121);
+    height: 60%;
+    position: absolute;
+    left: -14%;
+    top: 15%;
+}
+
+.scripts-p3 {
+    width: 40vw;
+    text-align: center;
+    font-size: calc(8px + 1.3vw);
+    position: relative;
+    left: 55vw;
+    top: 7vw; 
+    margin-bottom: 10vw;
+}
+
+.login-pic {
+    position: absolute;
+    width: 40vw;
+    margin: auto;
+    height: auto;
+    top: 75%;
+    left: 5vw;
+    right: 55vw;
+    display: inline-block;
+}
+
+.scripts-ending {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width:800px){
+    #lifting-image {
+        left: 10vw;
+        width: 80vw;
+        height: auto;
+        position: relative;
+        top: 2vw;
+    }
+
+    .p1-title{
+        left: 30vw;
+        width: 40vw;
+        position: relative;
+       
+    }
+    .scripts-p1{
+        left: 5vw;
+        width: 90vw;
+        
+    }
+    .p2-title{
+        left: 30vw;
+        width: 40vw;
+        
+    }
+    .scripts-p2{
+        left: 5vw;
+        width: 90vw;
+        
+    }
+
+    .Job-Scraper-pic {
+        left: 10vw;
+        width: 80vw;
+        height: auto;
+        position: relative;
+        top: 2vw;
+    }
+
+    .p3-title{
+        left: 30vw;
+        width: 40vw;
+    }
+    .scripts-p3{
+        left: 5vw;
+        width: 90vw;
+    }
+
+    .login-pic {
+        left: 10vw;
+        width: 80vw;
+        height: auto;
+        position: relative;
+        top: 2vw;
+    }
+
+    .pdf-viewer{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* START WEBSITES PAGE */
+
+
+.websites-heading {
+    font-size: calc(36px + 1.4vw);
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 1.1vw;
+}
+
+.websites-subheading {
+    font-size: calc(12px + 1.2vw);
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.grid-container {
+    position: relative;
+    background-color: transparent;
+    margin: 3vw;
+    text-align: center;
+}
+
+.grid-item {
+    display: inline-block;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    margin: 3vw;
+    line-height: 200px;
+}
+
+.grid-item:hover {
+    transform: scale(1.2);
+    transform-origin: center;
+    color: rgb(189, 189, 189);
+    border-color: rgb(189, 189, 189);
+    cursor: pointer;
+    box-shadow: black;
+}
+
+
+
+
+
+/* START WORK PAGE */
+
+#content-work-headings {
+    font-size: calc(36px + 1.4vw);
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 1.1vw;
+}
+
+.View-Scripts {
+    margin: auto;
+    position: relative;
+    display: block;
+    left: 50vw;
+    top: 30;
+}
+
+.myScripts {
+    width: 30vw;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    position: relative;
+}
+
+
+
+/* START CONTACT PAGE */
 
 
 
@@ -629,6 +965,8 @@ select {
 }
 
 .vl {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 140px;
     position: absolute;
     left: 50%;
     top: 30px;
